@@ -1,0 +1,17 @@
+name: pelias
+description: A dart client for pelias geocoder
+version: 0.0.1
+homepage: https://github.com/FaFre/pelias
+
+environment:
+  sdk: ">=2.14.4 <3.0.0"
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+dependencies: 
+  geojson: ^1.0.0
+  http: ^0.13.4
