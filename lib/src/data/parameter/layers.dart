@@ -44,7 +44,7 @@ enum Layer {
   postalcode,
 }
 
-extension _ParseToString on Layer {
+extension ParseToString on Layer {
   String getValue() {
     return toString().split('.').last;
   }
