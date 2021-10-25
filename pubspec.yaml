@@ -2,6 +2,7 @@ name: pelias
 description: A dart client for pelias geocoder
 version: 0.0.1
 homepage: https://github.com/FaFre/pelias
+publish_to: none
 
 environment:
   sdk: ">=2.14.4 <3.0.0"
@@ -12,6 +13,9 @@ environment:
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
-dependencies: 
-  geojson: ^1.0.0
+dependencies:
+  geojson:
+    git:
+      url: https://github.com/FaFre/geojson.git
+      ref: fix-main-thread-processing
   http: ^0.13.4
